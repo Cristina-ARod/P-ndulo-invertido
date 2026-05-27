@@ -9,17 +9,17 @@ MPU6050 sensor;
 // ============================
 
 // Motor A
-const int pinPWMA = 5;   // PWM
-const int pinAIN1 = 7;
-const int pinAIN2 = 8;
+const int pinPWMA = 6;   // PWM
+const int pinAIN1 = 8;
+const int pinAIN2 = 7;
 
 // Motor B
-const int pinPWMB = 6;   // PWM
+const int pinPWMB = 11;   // PWM
 const int pinBIN1 = 9;
 const int pinBIN2 = 10;
 
 // STBY
-const int pinSTBY = 4;
+const int pinSTBY = 12;
 
 // ============================
 // Variables MPU6050
